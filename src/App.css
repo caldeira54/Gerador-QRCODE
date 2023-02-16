@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: #202020;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: aquamarine;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 0.75rem;
+    color: #666;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.input {
+    padding: 1rem;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    color: #333;
+    background-color: #FFF;
+    font-size: 0.7rem;
+    width: 70%;
+    outline: none;
+    margin: 0.5rem 0;
+}
+
+.qrcode {
+    margin: 1rem 0;
+    background-color: #FFF;
+    width: 70%;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.btn-download {
+    border: none;
+    background-color: #333;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
