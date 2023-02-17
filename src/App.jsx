@@ -13,7 +13,7 @@ function App() {
       margin: 3
     }, (err, url) => {
       setQRCode(url)
-    }
+    })
   }
 
   function handleQrCode(e) {
